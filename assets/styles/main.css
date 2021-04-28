@@ -1,0 +1,230 @@
+@font-face {
+  font-family: 'Cera Medium';
+ 
+  src:  url('../../assets/fonts/Cera GR Medium.otf') format('opentype'); 
+}
+
+@font-face {
+  font-family: 'Cera GR';
+ 
+  src:  url('../../assets/fonts/Cera GR.otf') format('opentype'); 
+}
+
+.navigation {
+	position: sticky;
+	width: 100%;
+	height: 70px;
+	background-color: #FFFFFF;
+	padding-top: 20px;
+}
+
+.logo {
+	display: inline-block;
+	width: 305px;
+	padding-left: 170px; 
+}
+
+.nav-bar {
+	float: right;
+	display: inline-block;
+	vertical-align: center;
+	padding-top: 8px;
+	padding-right: 170px;
+}
+
+.nav-bar a {
+	color: #672666;
+	font-family: 'Cera GR';
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 20px;
+}
+
+.nav-bar a:hover {
+	color: #a773a6;
+}
+
+body {
+	font-family: 'Cera Medium';
+}	
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+header {
+	background: #FFFFFF;
+}
+
+ .header-image-2 {
+ 	display: block;
+ 	position: relative;
+ 	width: 100%;
+ 	height: auto;
+ }
+
+ .header-copy {
+ 	position: absolute;
+ 	top: 40%;
+ 	left: 4%;
+
+ }
+
+ .header-copy h2 {
+ 	font-family: 'Cera GR';
+ 	font-size: 50px;
+ 	color: #000000;
+ }
+
+.header-copy .header-image-title-1 {
+	margin-bottom: 5px;
+}
+
+ .header-copy .header-image-title-2 {
+ 	color: #672666;
+ }
+
+.header-copy p br {
+	display: block;
+	padding-bottom: 30px; 
+} 
+
+ .header-copy .header-image-body-1 {
+ 	font-size: 14.5px;
+ 	line-height: 2em;
+ 	font-family: 'Cera GR';
+}
+
+ .header-copy .header-image-body-2 {
+
+ 	font-size: 14.5px;
+ 	line-height: 2em;
+ 	font-family: 'Cera GR';
+}
+
+ .video-section h2 {
+ 	font-family: 'Cera GR';
+ 	font-size: 41px;
+ 	color: #672666;
+ 	text-align: center;
+ 	padding-top: 70px;
+ 	padding-bottom: 40px;
+ }
+
+ .video-section img {
+ 	display: block;
+ 	margin: 0 auto;
+ 	padding-bottom: 100px;
+ }
+
+.features-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+	background-image: url('../images/features-bg.webp');
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: center;
+
+}
+
+.features-section ul{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.features-section ul p{
+	max-width: 245px;
+	font-family: 'Cera Medium';
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: .5px;
+	line-height: 1.8em;
+	padding-top: 20px;
+}
+
+.features-section li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 33%;
+	padding-bottom: 40px;
+}
+
+ .features-section h3 {
+ 	font-size: 34px;
+ 	padding-bottom: 40px;
+
+ }
+
+ .buttons-section {
+ 	margin-bottom: 70px;
+
+ }
+
+ .buttons-section ul {
+ 	display: flex;
+ 	justify-content: center;
+
+ }
+
+
+.buttons-section li {
+ 	margin: 0 150px;
+
+
+ }
+
+ .buttons-section ul li p {
+ 	font-size: 28px;
+ 	text-align: center;
+ 	max-width: 200px;
+ 	padding-top: 80px;
+ 	padding-bottom: 20px;
+ }
+
+ .buttons-section a {
+ 	display: block;
+ 	font-size: 18px;
+ 	color: #FFFFFF;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	border-radius: 999px;
+ 	padding: 16px 24px;
+ }
+
+.button-demo p {
+	color: #672666;
+}
+
+ .button-demo a {
+ 	background-color: #672666;
+ 	border: 2px solid #672666;
+ }
+
+.button-demo a:hover {
+	background-color: #FFFFFF;
+	color: #672666;
+	border-radius: 999px;
+}
+
+.button-journey p {
+	color: #007473;
+}
+
+.button-journey a {
+ 	background-color: #007473;
+ 	border: 2px solid #007473;
+
+ }
+
+ .button-journey a:hover {
+	background-color: #FFFFFF;
+	color: #007473;
+	border-radius: 999px;
+}
